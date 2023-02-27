@@ -7,7 +7,7 @@
 ## Необходимое ПО
 
 -   [NodeJS (LTS)](https://nodejs.org/en/);
--   [Git](https://git-scm.com/).
+-   [Git](https://git-scm.com/);
 -   [Visual code](https://code.visualstudio.com/).
 
 ## Начало работы
