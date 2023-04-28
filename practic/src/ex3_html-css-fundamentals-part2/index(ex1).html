@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .diamond, .dia {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+.diamond {
+  transform: rotate(45deg) translateY(-25px) translateX(-25px);
+}
+.diamond .dia {
+  width: 380px;
+  height: 380px;
+  transform: rotate(-45deg);
+}
+.diamond img {
+  width: 100%;
+  height: auto;
+}
+
+    </style>
+    
+</head>
+<body>
+  <img src="211.jpg" style="border-radius: 50%;">
+  <p></p>
+    <div class="part">
+          <div class="diamond">
+            <div class="dia">
+              <img src="211.jpg" alt="null" width="320" height="316" />
+            </div>
+          </div>
+      </div>
+</body>
+</html>
